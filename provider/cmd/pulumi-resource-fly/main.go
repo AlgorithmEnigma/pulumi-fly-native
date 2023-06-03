@@ -25,7 +25,9 @@ import (
 // Version is initialized by the Go linker to contain the semver of this build.
 var Version string
 
+
 func main() {
+	println("READ MEEEEEE Version: ", Version)
 	p.RunProvider("fly", Version,
 		// We tell the provider what resources it needs to support.
 		// In this case, a single custom resource.
