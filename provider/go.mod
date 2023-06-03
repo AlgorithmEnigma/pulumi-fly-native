@@ -1,4 +1,4 @@
-module github.com/pulumi/pulumi-xyz/provider
+module github.com/AlgorithmEnigma/pulumi-fly-native/provider
 
 go 1.18
 

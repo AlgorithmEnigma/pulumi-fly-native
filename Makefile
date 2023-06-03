@@ -1,10 +1,10 @@
-PROJECT_NAME := Pulumi Xyz Resource Provider
+PROJECT_NAME := Pulumi Fly.io Resource Provider
 
-PACK             := xyz
+PACK             := fly
 PACKDIR          := sdk
-PROJECT          := github.com/pulumi/pulumi-xyz
-NODE_MODULE_NAME := @pulumi/xyz
-NUGET_PKG_NAME   := Pulumi.Xyz
+PROJECT          := github.com/AlgorithmEnigma/pulumi-fly-native
+NODE_MODULE_NAME := @pulumi/fly-native
+NUGET_PKG_NAME   := Pulumi.fly-native
 
 PROVIDER        := pulumi-resource-${PACK}
 VERSION         ?= $(shell pulumictl get version)

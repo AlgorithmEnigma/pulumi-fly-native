@@ -1,5 +1,5 @@
-import * as xyz from "@pulumi/xyz";
+import * as fly from "@pulumi/fly";
 
-const random = new xyz.Random("my-random", { length: 24 });
+const random = new fly.Random("my-random", { length: 24 });
 
 export const output = random.result;
